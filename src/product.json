@@ -2,43 +2,43 @@
   "products": [
     {
       "id": 1,
-      "title": "product",
-      "image": "",
-      "desc": "this is a product",
+      "title": "product 1",
+      "image": "./pic/1.jpg",
+      "description": "this is a product",
       "date": "1403"
     },
     {
       "id": 2,
-      "title": "product",
-      "image": "",
-      "desc": "this is a product",
+      "title": "product 2",
+      "image": "./pic/2.jpg",
+      "description": "this is a product",
       "date": "1403"
     },
     {
       "id": 3,
-      "title": "product",
-      "image": "",
+      "title": "product 3",
+      "image": "./pic/1.jpg",
       "description": "this is a product",
       "date": "1403"
     },
     {
       "id": 4,
-      "title": "product",
-      "image": "",
+      "title": "product 4",
+      "image": "./pic/4.jpg",
       "description": "this is a product",
       "date": "1403"
     },
     {
       "id": 5,
-      "title": "product",
-      "image": "",
+      "title": "product 5",
+      "image": "./pic/1.jpg",
       "description": "this is a product",
       "date": "1403"
     },
     {
       "id": 6,
-      "title": "product",
-      "image": "",
+      "title": "product 6",
+      "image": "./pic/2.jpg",
       "description": "this is a product",
       "date": "1403"
     }

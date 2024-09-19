@@ -1,0 +1,36 @@
+.not-found {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.not-found h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #d9534f; /* Bootstrap danger color */
+}
+
+.not-found p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

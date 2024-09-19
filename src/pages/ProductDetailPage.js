@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
+import "./ProductDetailPage.css";
 
 const ProductDetailPage = () => {
   const { id } = useParams();
@@ -16,11 +17,14 @@ const ProductDetailPage = () => {
   if (!product) return <div>Loading...</div>;
 
   return (
-    <div>
+    <div className="product-detail">
       <h1>{product.title}</h1>
       <img src={product.image} alt={product.title} />
       <p>{product.description}</p>
       <p>{product.date}</p>
+      <Link to="/" className="back-button">
+        Back to Products
+      </Link>
     </div>
   );
 };
